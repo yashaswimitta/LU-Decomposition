@@ -34,15 +34,33 @@ Step 5: End of the Program.
 
 ## Program:
 ```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: 
-RegisterNumber: 
-*/
+'''Program to find L and U matrix using LU decomposition.
+Developed by: S.ABHISHEK    
+RegisterNumber: 21004552
+'''
+
+# To print L and U matrix
+import numpy as np
+from scipy.linalg import lu
+
+a=np.array(eval(input()))
+P,L,U=lu(a)
+print(L)
+print(U)
+
+# To print X matrix (solution to the equations)
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+
+a=np.array(eval(input()))
+b=np.array(eval(input()))
+lu,piv=lu_factor(a)
+x=lu_solve((lu,piv),b)
+print(x)
 ```
 
 ## Output:
-![lu decomposition]()
+![lu 1.png]()
 
 
 ## Result:
