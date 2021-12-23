@@ -22,10 +22,15 @@ Step 5: End of the Program.
 
 ### 2. To Find X matrix with LU Decomposition
 Step 1: Get the matrix from the user.
+
 Step 2: Using "from scipy.linalg import lu_factor,lu_solve" to import scipy module for factorization and solving X.
+
 Step 3: Using "lu,piv=lu_factor(a)" 
+
 Step 4: 
+
 Step 5: End of the Program.
+
 
 ## Program:
 ```
