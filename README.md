@@ -60,7 +60,11 @@ print(x)
 ```
 
 ## Output:
-![lu 1.png]()
+### 1. To Find L and U matrices with LU Decomposition
+![Github Logo](lu_1.png)
+
+### 2. To Find X matrix with LU Decomposition
+![Github Logo](lu_2.png)
 
 
 ## Result:
