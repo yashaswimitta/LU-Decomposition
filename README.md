@@ -10,10 +10,15 @@ To write a program to find the LU Decomposition of a matrix.
 ## Algorithm
 ### 1. To Find L and U matrices with LU Decomposition
 Step 1: Get the matrix from the user.
+
 Step 2: Using "from scipy.linalg import lu" to import scipy (LU) module.
+
 Step 3: Using "L,U=lu(a)" we can get the matrix of L and U.
+
 Step 4: Print the result matrices (L and U Matrices).
+
 Step 5: End of the Program.
+
 
 ### 2. To Find X matrix with LU Decomposition
 Step 1: Get the matrix from the user.
