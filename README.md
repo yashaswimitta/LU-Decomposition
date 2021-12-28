@@ -25,9 +25,9 @@ Step 1: Get the matrix from the user.
 
 Step 2: Using "from scipy.linalg import lu_factor,lu_solve" to import scipy module for factorization and solving X.
 
-Step 3: Using "lu,piv=lu_factor(a)" 
+Step 3: Using "lu,piv=lu_factor(a)"  and "lu_solve((lu,piv),b)" , we find X matrix.
 
-Step 4: 
+Step 4: Print the output (X matrix).
 
 Step 5: End of the Program.
 
